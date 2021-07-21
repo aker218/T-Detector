@@ -87,7 +87,7 @@ the sample in move/ and mouse/ is shown in follows:
 
 - Field Description: tm: millisecond timestamp, x: map x, y: map y
 
-## data preprocess->embedding pretrain->angle pretrain->model training and evaluation
+## Data preprocess->Embedding pretrain->Angle pretrain->Model training and evaluation
 After data preparation, directly execute the run.sh and complete all the steps, among which the embedding pre-training step and Angle pretrain are slow and need to wait for 2-4 hours. Upon completion of the execution, all model parameters and test set evaluation results will be stored under /trajectory_detector/models/.
     
     source run.sh
